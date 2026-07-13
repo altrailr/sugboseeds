@@ -289,6 +289,9 @@
             letter-spacing: -0.02em;
         }
         .stat-block__value--sm {
+            font-family:var(--font-display);
+            font-weight:700;
+            text-transform:uppercase;
             font-size: clamp(1rem, 2vw, 1.35rem);
             line-height: 1.05;
         }

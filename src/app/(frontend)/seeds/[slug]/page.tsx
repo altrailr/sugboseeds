@@ -68,7 +68,7 @@ export default async function SeedPage({
           <div className="plant-hero__details">
             <div className="plant-hero__main">
               {seed.inventoryLabel && (
-                <div className="plant-hero__label">{seed.inventoryLabel}</div>
+                <div className="plant-hero__label">{seed.inventoryLabel} — Inventory Object</div>
               )}
               <h1 className="plant-hero__title">{seed.title}</h1>
               {seed.scientificName && (
